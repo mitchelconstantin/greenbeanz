@@ -1,7 +1,5 @@
 import React from 'react';
 import $ from 'jquery';
-// import ShoppingList from 'ShoppingList.jsx';
-// import List from './List';
 import Cart from './Cart.jsx';
 import UserList from './UserList.jsx';
 class Dashboard extends React.Component {
@@ -19,7 +17,6 @@ class Dashboard extends React.Component {
 
   componentDidMount() {
     this.getLists();
-    // this.props.createNewList();
   }
 
   changeScreen() {

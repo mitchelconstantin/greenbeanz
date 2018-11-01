@@ -102,7 +102,6 @@ class UserList extends Component {
             <a className="listHEB" ><em>HEB: </em>${this.listTotal('HEB', this.state.items)}</a>
             <a className="listWholeFoods" ><em>Whole Foods: </em>${this.listTotal('Whole Foods', this.state.items)}</a>
           </div>
-          {/* <input type="button" value="Edit List" /> */}
         </div>
       );
     }
